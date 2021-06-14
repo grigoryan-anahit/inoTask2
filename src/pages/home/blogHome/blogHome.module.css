@@ -1,0 +1,54 @@
+.hrDivPr{
+    display: flex;
+    align-items: center;
+     
+}
+.hrPr{
+    width: 70%;
+}
+.hrTxt{
+    margin-top: 15px;
+    margin-right: 5px;
+    font-weight: 500px;
+}
+.headerDiv{
+   width: 60%;
+   margin: 0 auto;
+}
+  .htTxt{
+      margin: 20px 0;
+  }
+ 
+
+  .blog{
+      width: 65%;
+  }
+  .blogDivs{
+      display: flex;
+      width: 100%;
+      margin: 50px 0;
+    }
+    .blogDiv{
+        width: 30%;
+        height: 50vh;
+        margin-right: 50px;
+    }
+   .blogImgDiv{
+       width: 100%;
+       height: 50%;
+   }
+   .blogImg{
+       width: 100%;
+       height: 100%;
+   }
+   .blogTxt{
+       width: 60%;
+       margin:20px auto;
+       font-size: 20px;
+       font-weight: 400;
+   }
+   @media only screen and   (max-width:770px){
+    .blog{
+        width: 100%;
+    }
+   }

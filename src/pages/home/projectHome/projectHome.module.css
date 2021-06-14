@@ -1,0 +1,37 @@
+.project{
+    width: 65%;
+}
+.hrDivPr{
+    display: flex;
+    align-items: center;
+     
+}
+.hrPr{
+    width: 70%;
+}
+.hrTxt{
+    margin-top: 15px;
+    margin-right: 5px;
+    font-weight: 500px;
+}
+.prHeader{
+    font-weight: 700;
+}
+.prDiv1{
+    display: flex;
+    width: 100%;
+}
+.prDiv1Left{
+    width: 30%;
+    margin-right: 50px;
+}
+.prDiv1Right{
+    padding-top: 15px;
+ width: 60%;
+}
+
+@media only screen and (max-width:770px){
+    .project{
+        width: 100%;
+    }
+}

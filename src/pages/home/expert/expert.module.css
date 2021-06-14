@@ -1,0 +1,111 @@
+.expertPage{
+    width: 65%;
+    margin: 100px 0;
+  }
+  .expertsDivs{
+      width: 100%;
+      display: flex;
+  }
+  .expertsDiv{
+      width: 22%;
+      height: 50vh;
+      margin-right: 20px;
+  }
+  .expertImgDiv{
+   width: 100%;
+   height: 50%;
+  }
+  .expertImg{
+    width: 100%;
+    height: 300px;
+  }
+  .expertTitle{
+      color: blue;
+  }
+  .hrDivPr{
+    display: flex;
+    align-items: center;
+     
+}
+.hrPr{
+    width: 70%;
+}
+.hrTxt{
+    margin-top: 25px 0;
+    margin-right: 5px;
+    font-weight: 500px;
+}
+.headerDiv{
+    width: 60%;
+    margin: 50px auto;
+ }
+ .visible.hidden{
+     display: none;
+ }
+ .visible{
+     position: absolute;
+    top: 5540px;
+     width: 270px;
+    height: 200px;
+
+  background-color: white;
+   display: block;
+ }
+ .visiblee.hiddenn{
+    display: none;
+}
+.visibleee.hiddennn{
+    display: none;
+}
+.visibleeee.hiddennnn{
+    display: none;
+}
+ .visiblee{
+    position: absolute;
+   top: 5540px;
+   left: 623px;
+    width: 270px;
+   height: 200px;
+
+ background-color: white;
+  display: block;
+}
+.visibleee{
+    position: absolute;
+   top: 5540px;
+   left: 920px;
+    width: 270px;
+   height: 200px;
+
+ background-color: white;
+  display: block;
+}
+.visibleeee{
+    position: absolute;
+   top: 5540px;
+   right: 420px;
+    width: 270px;
+   height: 200px;
+
+ background-color: white;
+  display: block;
+}
+@media only screen and   (max-width:770px){
+  .expertPage{
+    width: 100%;
+    margin: 100px 0;
+  }
+  .expertsDiv{
+    width: 40%;
+    height: 50vh;
+    margin-right: 20px;
+}
+.expertsDivs{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+}
+
+ 
+   

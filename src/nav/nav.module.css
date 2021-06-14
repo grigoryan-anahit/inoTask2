@@ -1,0 +1,43 @@
+nav{
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    position: fixed;
+    background-color: white;
+    box-shadow: gray ;
+
+}
+.navBar{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  margin: 0 auto;
+}
+.navList{
+    display: flex;
+ 
+    list-style: none;
+
+}
+.navItems{
+    
+  margin-left: 50px;
+
+}
+.navLink{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.navLinkActive{
+    color: #4260e7;
+}
+.mosaic{
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+   
+}

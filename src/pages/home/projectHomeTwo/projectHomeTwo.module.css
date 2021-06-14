@@ -1,0 +1,47 @@
+
+.prBigDiv{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 0;
+}
+.BigimgDiv{
+    width: 25%;
+}
+.bigDivImg{
+    width: 100%;
+    height: 350px;
+    
+}
+.BigimgDiv:hover{
+    background: rgb(14, 14, 179);
+     cursor: pointer;
+    
+}
+.bigDivImg:hover{
+    opacity: .3;
+}
+.hiddenVisible{
+    width: 25%;
+    border: 2px solid blue;
+    height: 350px;
+    background-color: blue;
+    opacity: .8;
+    display: block;
+}
+.hiddenVisible.hidden{
+    display: none;
+}
+.hiddenTxt{
+  color:white;
+}
+.hiddenTxt1{
+    color:white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  @media only screen and (max-width:770px){
+    .BigimgDiv{
+        width: 50%;
+    }
+  }

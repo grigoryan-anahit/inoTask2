@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#carouselBig{
+  width: 100%;
+  display: flex;
+}
+
+#carouselItem{
+  display: flex;
+  width: 70%;
+  margin-left: 350px;
+}
+.txtDiv{
+ width: 600px;
+ position: absolute;
+ left: -300px;
+}
+  #carouselTxt1{
+   width: 600px;
+    color: rgb(12, 12, 12);
+    font-size: 60px;
+    font-weight:bold;
+    margin-top: 150px;
+
+  
+}
+
+#carouselTxt2{
+  width: 550px;
+   color: rgb(12, 12, 12);
+   font-size: 60px;
+   font-weight:bold;
+   margin-top: 200px;
+}
+  .carouselBtn{
+    padding: 10px 20px;
+    background-color: rgb(0, 38, 255);
+    color: white;
+    border-radius: 30px;
+    border-color: rgb(0, 38, 255); ;
+  }
+  #carouselImg{
+  height: 98vh;
+  width: 100%;
+  
+
+  }
+  /**********************/
+  .customerImgDiv{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
+   
+  }
+  .customerImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  /*********/
+ 
+  .logoDiv{
+    width: 200px;
+    height: 100px;
+    border: 1px solid rgb(202, 194, 194);
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoDiv:hover{
+ 
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 10px 29px 0px;
+  color: blue;
+  cursor: pointer;
+}
+
+@media only screen and (max-width:1403px){
+  #carouselItem{
+    display: flex;
+    width:100%;
+    margin-left: 60px;
+  }
+   #carouselTxt1,  #carouselTxt2,.carouselP{
+      color: blue;
+  }
+  .txtDiv{
+    width: 600px;
+    position: absolute;
+    left: 50px;
+   }
+   .carouselP{
+     font-size: 20px;
+   }
+}

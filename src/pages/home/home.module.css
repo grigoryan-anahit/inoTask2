@@ -1,0 +1,120 @@
+.homePage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.carouselDiv{
+    margin-top: 70px;
+    display: flex;
+ width: 65%;
+}
+
+
+/**********************************/
+.blueDiv{
+    width: 100%;
+    background-color: rgb(44, 44, 228);
+    background-image: url('../../images/img20.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 300px;
+    background-blend-mode:overlay;
+     color: white;
+    font-size: 20px;
+    padding: 0 15%;
+}
+.blueNum{
+    display: flex;
+   width: 80%;
+ margin-top: 50px;
+}
+.blueNum>p{
+    margin-left: 50px;
+    width: 400px;
+    text-align: center;
+}
+
+
+/***********************************************************/
+
+  /***********************************/
+.testimonyPage{
+    width: 65%;   
+}
+.hrDivPr{
+    display: flex;
+    align-items: center;
+     
+}
+.hrPr{
+    width: 70%;
+}
+.hrTxt{
+    margin-top: 15px;
+    margin-right: 5px;
+    font-weight: 500px;
+}
+.headerDiv{
+   width: 60%;
+   margin: 0 auto;
+}
+  .htTxt{
+      margin: 20px 0;
+  }
+  /**********************************/
+ 
+  /*********************************/
+  .blog{
+      width: 65%;
+  }
+  .blogDivs{
+      display: flex;
+      width: 100%;
+      margin: 50px 0;
+    }
+    .blogDiv{
+        width: 30%;
+        height: 50vh;
+        margin-right: 50px;
+    }
+   .blogImgDiv{
+       width: 100%;
+       height: 50%;
+   }
+   .blogImg{
+       width: 100%;
+       height: 100%;
+   }
+   .blogTxt{
+       width: 60%;
+       margin:20px auto;
+       font-size: 20px;
+       font-weight: 400;
+     /*****************************************/  
+   }
+   .clients{
+       width: 65%;
+   }
+   .clientCarDiv{
+       margin: 50px 0;
+       padding-top: 20px;
+   }
+   /**********************************************/
+   
+   @media only screen and   (max-width:770px){
+    .carouselDiv{
+        margin-top: 70px;
+        display: flex;
+     width: 100%;
+    }
+    .testimonyPage{
+        width: 100%;   
+    }
+    .clientCarDiv{
+        width: 100%;
+    }
+  
+   }    
+   

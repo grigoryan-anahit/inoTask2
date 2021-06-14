@@ -1,0 +1,73 @@
+.workflow{
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+    margin: 100px 0;
+}
+.divOne{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+.icon{
+    width: 100px;
+}
+.arrowIcon{
+    width: 200px;
+    height: 60px;
+}
+.divTwo{
+    display: flex;
+    margin: 100px 0;
+}
+.imgDiv{
+    display: flex;
+    align-items: center;
+}
+.divs{
+    width: 100%;
+}
+.disHeader{
+    margin: 20px 0;
+}
+.divThree{
+    display: flex;
+}
+.divThreeImg{
+    width: 60px;
+}
+.divThree1{
+    width: 50%;
+    margin-top: 25px;
+}
+.divThreeDiv{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+   
+}
+.divThreeDivchik{
+    margin-right: 25px;
+    margin-top: 25px;
+    padding: 25px;
+    background-color: rgba(245, 245, 245, 0.979);
+}
+@media only screen and (max-width:770px){
+    .divThreeDivchik{
+        width: 30%;
+        margin-left: 10px;
+    }
+    .divThree{
+        width: 100%;
+    }
+    .workflow{
+        width: 100%;
+    }
+    .txt{
+        margin-left: 50px;
+    }
+}
