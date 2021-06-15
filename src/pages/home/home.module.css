@@ -6,9 +6,10 @@
     justify-content: center;
 }
 .carouselDiv{
-    margin-top: 70px;
+    margin-top: 80px;
     display: flex;
  width: 65%;
+ z-index: 1;
 }
 
 
@@ -105,7 +106,7 @@
    
    @media only screen and   (max-width:770px){
     .carouselDiv{
-        margin-top: 70px;
+        margin-top: 110px;
         display: flex;
      width: 100%;
     }

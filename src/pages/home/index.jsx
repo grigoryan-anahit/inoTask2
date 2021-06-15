@@ -13,14 +13,9 @@ import BlogHome from './blogHome';
 
 import s from './home.module.css';
 
-
-
-
- 
 class Home extends React.Component{
- 
-   render(){
-   
+    
+ render(){
     return (
         <div className={s.homePage}>
          <div className={s.carouselDiv}>
@@ -30,7 +25,7 @@ class Home extends React.Component{
           <AboutH />
           <div className={s.blueDiv}>
             <div className={s.blueNum} >
-                <p >18</p>
+                <p className='year'>18</p>
                 <p >351</p>
                 <p >564</p>
                 <p >300</p>
@@ -93,6 +88,7 @@ class Home extends React.Component{
       
         
     )
+    
     
    }
 }

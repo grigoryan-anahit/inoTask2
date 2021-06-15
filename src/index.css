@@ -93,7 +93,7 @@ code {
   cursor: pointer;
 }
 
-@media only screen and (max-width:1403px){
+@media only screen and (max-width:770px){
   #carouselItem{
     display: flex;
     width:100%;

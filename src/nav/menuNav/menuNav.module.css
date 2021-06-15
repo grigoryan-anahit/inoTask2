@@ -1,0 +1,17 @@
+.navList{
+    list-style: none;
+    margin-top: 30px;
+
+}
+.navLink{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+}
+.navItems{
+    margin-top: 50px;
+  }
+  .navLinkActive{
+    color: #4260e7;
+}

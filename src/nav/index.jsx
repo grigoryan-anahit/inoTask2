@@ -1,6 +1,10 @@
 import s from './nav.module.css';
 import {NavLink} from 'react-router-dom';
-const Nav=({navbarItems})=>{
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import MenuNav from './menuNav';
+
+const Nav=({navbarItems, menuIsOpen, toggleMenu})=>{
     const navbarItemsJsx= navbarItems.map(item=>(
          <li className={s.navItems} key={item.id}>
              <NavLink className={s.navLink}
@@ -14,13 +18,22 @@ const Nav=({navbarItems})=>{
 return (
     <nav>
         <div className={s.navBar}>
-        <p className={s.mosaic}>
+        <h3 className={s.mosaic}>
             Mosaic
-        </p>
+        </h3>
         <ul className={s.navList}>
            {navbarItemsJsx}
         </ul>
+        <div className={s.menuDiv} onClick={toggleMenu} >
+        <FontAwesomeIcon icon={faBars} 
+                             color='black' 
+                             size='2x' 
+                             className={s.menu}
+             />
+             <h3>MENU</h3>
         </div>
+        </div>
+       {menuIsOpen && <div className={s.menuNavList}> <MenuNav  navbarItems={navbarItems}/> </div> }
     </nav>
 )
 }

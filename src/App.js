@@ -50,14 +50,18 @@ const navbarItems=[
   }
 ];
 class  App extends React.Component{
-  
-
+  state={
+    menuIsOpen:false
+  }
+  toggleMenuOpen=()=>{
+    this.setState({menuIsOpen:!this.state.menuIsOpen})
+  }
   render(){
    
     return (
       
       <div className="App">
-        <Nav navbarItems={navbarItems}/>
+        <Nav navbarItems={navbarItems} menuIsOpen={this.state.menuIsOpen} toggleMenu={this.toggleMenuOpen}/>
       
        <Route path='/' component={Home} exact={true}  />
         <Route path='/about' component={About} />

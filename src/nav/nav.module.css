@@ -4,8 +4,7 @@ nav{
     padding: 20px;
     position: fixed;
     background-color: white;
-    box-shadow: gray ;
-
+    z-index: 10;
 }
 .navBar{
     width: 70%;
@@ -16,9 +15,7 @@ nav{
 }
 .navList{
     display: flex;
- 
-    list-style: none;
-
+  list-style: none;
 }
 .navItems{
     
@@ -39,5 +36,41 @@ nav{
     color: black;
     font-size: 20px;
     cursor: pointer;
-   
+}
+.menuDiv{
+    display: none;
+    cursor: pointer;
+}
+.menu{
+    margin-right: 5px;
+}
+.menuNavList{
+    width: 100%;
+   padding: 20px;
+    background-color: white;
+  transform: translateY(-500px);
+ 
+}
+@media only screen and (max-width:770px){
+        .navList{
+            display: none;
+        }
+        .menuDiv{
+            display: block;
+            display: flex;
+        }
+        nav{
+            height: 100px;
+        }
+        .navBar{
+            width: 100%;
+        }
+        .mosaic{
+            font-size: 30px;
+            font-weight: 500;
+        }
+        .menuNavList{
+            transform: translateY(10px);
+            transition: 2s;
+        }
 }
